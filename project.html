@@ -1,0 +1,208 @@
+<html>
+<head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+
+p{color:red;
+	font-size:100%;
+	font-family:jocker;
+
+
+}
+h1{
+	color:blue;
+	background-color:green;
+}
+.first{font-size:200%; }
+
+
+body{background-image:url('images/3rd.jpg');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+	
+	
+.img {
+	
+  border-radius:8px;
+  border:10px solid #ddd;
+}	
+
+
+.container {
+  position: relative;
+  width: 33%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+img:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 140, 186, 0.5);
+}
+.topnav .search-container button {
+  float: left;
+  padding: 8px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: 4px;
+  cursor: pointer;
+}
+
+
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  }
+  
+  
+  .footer {
+  padding: 60px;
+  
+  background-color:#595959;
+  margin-top: 20px;
+  
+  container{
+  margin:100%
+  padding:auto;
+  
+  }
+}
+</style>
+<title>Find what fit to you</title>
+</head>
+<body>
+<!-- start of the hard coding part-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+		<span class="ïcon-bar"></span>
+		<span class="icon-bar"></span>	
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/9th.jpg"  style="width:60px;height:30px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">catogaries</a></li>
+        <li><a href="#">log in</a></li>
+		<li><a href="#">shopping cart</a></li>
+		
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="topnav">
+  
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+
+<hr color:black;>
+
+<div class="container">
+<div class="img">
+<img src="images/5th.jpg" alt="trousers" class="image" style="width:400px;height:400px;">
+</div>
+<div class="middle">
+<div class="text">Trousers</div>
+</div>
+</div>
+
+<div class="container">
+<div class="img">
+<img src="images/6th.jpg" alt="shirts" class="image" style="width:400px;height:400px;" >
+</div>
+<div class="middle">
+<div class="text">Jwellaries</div>
+</div>
+</div>
+<div class="container">
+<div class="img">
+<img src="images/7th.jpg" alt="jwellaries" class="image" style="width:400px;height:400px;">
+</div>
+<div class="middle">
+<div class="text">Shirts</div>
+</div>
+</div>
+<div class="container">
+<div class="img">
+<img src="images/8th.jpg" alt="head gears" class="image" style="width:400px;height:400px;">
+</div>
+<div class="middle">
+<div class="text">Foot Wear</div>
+</div>
+</div>
+<div class="container">
+<div class="img">
+<img src="images/9th.jpg" alt="electronics" class="image" style="width:400px;height:400px;">
+</div>
+<div class="middle">
+<div class="text">Hats</div>
+</div>
+</div>
+<div class="container">
+<div class="img">
+<img src="images/4th.jpg" alt="tools" class="image" style="width:400px;height:400px;">
+</div>
+<div class="middle">
+<div class="text">Glows</div>
+</div>
+</div>
+<div class="footer">
+<p>
+aravinda thama supiri
+</p>
+</div>
+
+</body>
+</html>
